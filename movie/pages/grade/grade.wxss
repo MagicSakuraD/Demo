@@ -1,0 +1,2 @@
+/* pages/grade/grade.wxss */
+@import "../movie/movie-grid/movie-grid-tpl.wxss";

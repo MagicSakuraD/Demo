@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie",
+    "pages/movie/movie-detail/movie-detail",
+    "pages/grade/grade",
+    "pages/grade/scoring/scoring"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影小程序",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/home.png",
+      "selectedIconPath": "images/icon/home2.png"
+    },
+    {
+      "pagePath": "pages/movie/movie",
+      "text":"电影",
+      "iconPath": "images/icon/video.png",
+      "selectedIconPath": "images/icon/video2.png"
+    },
+    {
+      "pagePath": "pages/grade/grade",
+      "text":"评分",
+      "iconPath": "images/icon/input.png",
+      "selectedIconPath": "images/icon/modify.png"
+    }
+
+    
+    ]
+  },
+
+  "networkTimeout":{
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}
+
